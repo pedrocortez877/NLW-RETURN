@@ -1,5 +1,5 @@
-function App() {
-  return <button>Hello word</button>
-}
+import { Widget } from "./components/Widget";
 
-export default App
+export function App(){
+  return <Widget />
+}
